@@ -27,7 +27,7 @@ export default function Contact(){
                             {/* Social Links Row */}
                             <div className="flex gap-4">
                                 <a
-                                    href="https://github.com/yourusername"
+                                    href="https://github.com/vincyLim"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="flex items-center justify-center gap-2 flex-1 px-4 py-3 bg-gray-800 text-white rounded-xl font-semibold hover:bg-gray-700 transition-all duration-300 transform hover:scale-[1.02]"
@@ -37,7 +37,7 @@ export default function Contact(){
                                 </a>
                                 
                                 <a
-                                    href="https://linkedin.com/in/yourprofile"
+                                    href="https://www.linkedin.com/in/vincy-lim-8b7b30314"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="flex items-center justify-center gap-2 flex-1 px-4 py-3 bg-blue-600 text-white rounded-xl font-semibold hover:bg-blue-700 transition-all duration-300 transform hover:scale-[1.02]"
@@ -49,7 +49,7 @@ export default function Contact(){
 
                             {/* Resume Download */}
                             <a
-                                href="/resume/vincy-lim-resume.pdf"
+                                href="#"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="flex items-center justify-center gap-2 w-full px-6 py-3 border-2 border-slate-300 text-slate-700 rounded-xl font-semibold hover:border-purple-400 hover:text-purple-600 hover:bg-purple-50 transition-all duration-300 transform hover:scale-[1.02]"
