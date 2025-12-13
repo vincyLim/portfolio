@@ -1,0 +1,51 @@
+@import "tailwindcss";
+@import "bootstrap-icons/font/bootstrap-icons.css";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-icon {
+  @apply w-6 h-6 p-1 flex items-center justify-center rounded-full shadow-md bg-indigo-400 text-white;
+}
+
+.long-paragraph {
+  @apply text-lg text-slate-600 text-justify leading-relaxed mb-6;
+}
+
+.skill-item-minimal {
+  @apply flex flex-col items-center justify-center;
+  @apply w-28 h-28 md:w-32 md:h-32; /* Slightly larger breathing room */
+  @apply rounded-2xl;
+  @apply bg-slate-900/50; /* Very subtle background */
+  @apply border border-white/5;
+  @apply transition-all duration-300 ease-out;
+  @apply cursor-default;
+}
+
+.skill-item-minimal:hover {
+  transform: translateY(-1px);
+  @apply shadow-sm shadow-cyan-100;
+  
+}
