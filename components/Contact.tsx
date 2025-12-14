@@ -17,7 +17,7 @@ export default function Contact(){
                         <div className="space-y-4">
                             {/* Email Button */}
                             <a
-                                href="mailto:vincylim@example.com"
+                                href="mailto:vincy.mac@icloud.com"
                                 className="flex items-center justify-center gap-3 w-full px-6 py-4 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-xl font-semibold hover:shadow-lg hover:shadow-purple-500/25 transition-all duration-300 transform hover:scale-[1.02]"
                             >
                                 <Mail className="w-5 h-5" />
@@ -49,7 +49,7 @@ export default function Contact(){
 
                             {/* Resume Download */}
                             <a
-                                href="#"
+                                href="https://drive.google.com/file/d/1o6pvuQvVvaYzg7EXYg_KPvFVqrcNuqvT/view?usp=drive_link"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="flex items-center justify-center gap-2 w-full px-6 py-3 border-2 border-slate-300 text-slate-700 rounded-xl font-semibold hover:border-purple-400 hover:text-purple-600 hover:bg-purple-50 transition-all duration-300 transform hover:scale-[1.02]"

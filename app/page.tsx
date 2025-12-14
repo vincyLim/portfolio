@@ -8,16 +8,40 @@ import Contact from '@/components/Contact';
 import Projects from '@/components/Projects';
 
 export const metadata: Metadata = {
-  title: "Vincy Lim’s Portfolio",
-  description: "A fresh graduate software engineer from Malaysia. Explore my projects, skills, and experiences in the tech industry.",
+  title: "Vincy Lim | Software Engineering Portfolio",
+  description:
+    "Software engineering graduate from Malaysia with experience in full-stack web development. Explore my projects, skills, and technical experience.",
   keywords: [
     "Vincy Lim",
-    "Malaysia",
     "Software Engineer",
+    "Software Engineering Graduate",
     "Full-Stack Developer",
     "Web Developer",
+    "React Developer",
+    "Laravel Developer",
+    "UTAR",
   ],
-}
+  authors: [{ name: "Vincy Lim" }],
+  creator: "Vincy Lim",
+  publisher: "Vincy Lim",
+  openGraph: {
+    title: "Vincy Lim | Software Engineering Portfolio",
+    description:
+      "Software engineering graduate specialising in full-stack web development. View projects, technical skills, and experience.",
+    url: "https://vincylim-portfolio.vercel.app/", 
+    siteName: "Vincy Lim Portfolio",
+    images: [
+      {
+        url: "/main.png",
+        width: 1200,
+        height: 630,
+        alt: "Vincy Lim - Software Engineering Portfolio",
+      },
+    ],
+    locale: "en_GB",
+    type: "website",
+  },
+};
 
 //TODO: Add linkedin profile
 export default async function Home() {
