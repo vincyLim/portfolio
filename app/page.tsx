@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: '/opengraph-image.jpg',
+        url: '/opengraph-image.webp',
         width: 1200,
         height: 630,
         alt: 'Vincy Lim - Software Engineer Portfolio',
