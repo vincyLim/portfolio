@@ -24,18 +24,18 @@ export const metadata: Metadata = {
   authors: [{ name: "Vincy Lim" }],
   creator: "Vincy Lim",
   publisher: "Vincy Lim",
+  metadataBase: new URL("https://vincylim-portfolio.vercel.app/"),
   openGraph: {
     title: "Vincy Lim | Software Engineering Portfolio",
-    description:
-      "Software engineering graduate specialising in full-stack web development. View projects, technical skills, and experience.",
-    url: "https://vincylim-portfolio.vercel.app/", 
-    siteName: "Vincy Lim Portfolio",
+    description:"Software engineering graduate specialising in full-stack web development. View projects, technical skills, and experience.",
+    url: "https://vincylim-portfolio.vercel.app/",
+    siteName: "Vincy Lim's Portfolio",
     images: [
       {
         url: "/main.png",
         width: 1200,
         height: 630,
-        alt: "Vincy Lim - Software Engineering Portfolio",
+        alt: "Vincy Lim's Portfolio Preview",
       },
     ],
     locale: "en_GB",
