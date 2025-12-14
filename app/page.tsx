@@ -30,20 +30,10 @@ export const metadata: Metadata = {
     description:"Software engineering graduate specialising in full-stack web development. View projects, technical skills, and experience.",
     url: "https://vincylim-portfolio.vercel.app/",
     siteName: "Vincy Lim's Portfolio",
-    images: [
-      {
-        url: "/main.png",
-        width: 1200,
-        height: 630,
-        alt: "Vincy Lim's Portfolio Preview",
-      },
-    ],
-    locale: "en_GB",
     type: "website",
   },
 };
 
-//TODO: Add linkedin profile
 export default async function Home() {
   return (
       <main className="w-full min-h-screen">
